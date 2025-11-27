@@ -1,0 +1,13 @@
+# Allow access to CV files
+<FilesMatch "\.(pdf|doc|docx)$">
+    Order Allow,Deny
+    Allow from all
+</FilesMatch>
+
+# Prevent directory listing
+Options -Indexes
+
+# Force download for certain file types
+<FilesMatch "\.(pdf|doc|docx)$">
+    Header set Content-Disposition "attachment"
+</FilesMatch>
