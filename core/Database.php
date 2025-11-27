@@ -5,8 +5,27 @@ class Database {
     
     private function __construct() {
         try {
-            $dsn = "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=" . DB_CHARSET;
-            $this->connection = new PDO($dsn, DB_USER, DB_PASS, PDO_OPTIONS);
+            // Detect database type from DATABASE_URL or use MySQL for local
+            if (getenv('DATABASE_URL')) {
+                // Cloud deployment (PostgreSQL)
+                $db_url = parse_url(getenv('DATABASE_URL'));
+                $host = $db_url['host'];
+                $port = $db_url['port'] ?? 5432;
+                $dbname = ltrim($db_url['path'], '/');
+                $user = $db_url['user'];
+                $pass = $db_url['pass'] ?? '';
+                
+                $dsn = "pgsql:host={$host};port={$port};dbname={$dbname}";
+                $this->connection = new PDO($dsn, $user, $pass, [
+                    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+                    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+                    PDO::ATTR_EMULATE_PREPARES => false,
+                ]);
+            } else {
+                // Local development (MySQL)
+                $dsn = "mysql:host=" . DB_HOST . ";dbname=" . DB_NAME . ";charset=" . DB_CHARSET;
+                $this->connection = new PDO($dsn, DB_USER, DB_PASS, PDO_OPTIONS);
+            }
         } catch (PDOException $e) {
             die("Lỗi kết nối database: " . $e->getMessage());
         }
