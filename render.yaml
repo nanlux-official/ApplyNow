@@ -1,0 +1,25 @@
+services:
+  # Web Service
+  - type: web
+    name: applynow
+    runtime: docker
+    plan: free
+    repo: https://github.com/nanlux-official/ApplyNow
+    branch: main
+    rootDir: .
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: applynow-db
+          property: connectionString
+      - key: PORT
+        value: 10000
+    autoDeploy: true
+
+databases:
+  # PostgreSQL Database (Render free tier only supports PostgreSQL)
+  - name: applynow-db
+    plan: free
+    databaseName: job_recruitment
+    user: applynow_user
