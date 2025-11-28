@@ -75,7 +75,7 @@
                                             </a>
                                             <a href="<?= BASE_URL ?>/employer/applications?job_id=<?= e($job['ID_BaiDang']) ?>" 
                                                class="btn btn-sm btn-secondary" title="Xem ứng viên">
-                                                👥
+                                                Ứng viên
                                             </a>
                                             <form method="POST" action="<?= BASE_URL ?>/employer/jobs/<?= e($job['ID_BaiDang']) ?>/delete" 
                                                   onsubmit="return confirm('Bạn có chắc muốn xóa tin này?')">
