@@ -87,7 +87,7 @@
                             Hủy
                         </a>
                         <button type="submit" class="btn btn-primary">
-                            📤 Gửi đơn ứng tuyển
+                            Gửi đơn ứng tuyển
                         </button>
                     </div>
                 </form>

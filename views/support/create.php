@@ -33,7 +33,7 @@
 
                     <div style="display: flex; gap: 1rem; justify-content: flex-end;">
                         <a href="<?= BASE_URL ?>/support" class="btn btn-secondary">Hủy</a>
-                        <button type="submit" class="btn btn-primary">📤 Gửi yêu cầu</button>
+                        <button type="submit" class="btn btn-primary">Gửi yêu cầu</button>
                     </div>
                 </form>
             </div>

@@ -65,7 +65,7 @@
                             <div class="form-group">
                                 <textarea name="noi_dung" rows="4" required placeholder="Nhập phản hồi của bạn..."></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">📤 Gửi phản hồi</button>
+                            <button type="submit" class="btn btn-primary">Gửi phản hồi</button>
                         </form>
                     </div>
                 </div>
@@ -152,7 +152,7 @@
                                 <label>Ghi chú nội bộ</label>
                                 <textarea name="note" rows="2" placeholder="Ghi chú cho admin..."><?= e($ticket['GhiChu'] ?? '') ?></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary" style="width: 100%;">💾 Cập nhật</button>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Cập nhật</button>
                         </form>
                     </div>
                 </div>

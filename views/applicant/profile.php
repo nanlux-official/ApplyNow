@@ -76,7 +76,7 @@
                             <textarea name="hoc_van" rows="4" placeholder="Trình độ học vấn, bằng cấp..."><?= e($applicant['HocVan'] ?? '') ?></textarea>
                         </div>
 
-                        <button type="submit" class="btn btn-primary">💾 Lưu thay đổi</button>
+                        <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
                     </form>
                 </div>
             </div>

@@ -103,7 +103,7 @@
 
                     <div style="display: flex; gap: 1rem; justify-content: flex-end; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #E5E7EB;">
                         <a href="<?= BASE_URL ?>/support" class="btn btn-secondary" style="padding: 0.75rem 2rem;">Hủy bỏ</a>
-                        <button type="submit" class="btn btn-success" style="padding: 0.75rem 2rem;">📤 Gửi yêu cầu</button>
+                        <button type="submit" class="btn btn-success" style="padding: 0.75rem 2rem;">Gửi yêu cầu</button>
                     </div>
                 </form>
             </div>

@@ -116,7 +116,7 @@
 
                 <div style="display: flex; gap: 1rem; justify-content: flex-end; margin-top: 2rem;">
                     <a href="<?= BASE_URL ?>/employer/dashboard" class="btn btn-secondary">Hủy</a>
-                    <button type="submit" class="btn btn-primary btn-lg">📤 Đăng tin tuyển dụng</button>
+                    <button type="submit" class="btn btn-primary btn-lg">Đăng tin tuyển dụng</button>
                 </div>
             </form>
         </div>

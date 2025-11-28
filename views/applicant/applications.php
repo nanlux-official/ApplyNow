@@ -24,7 +24,7 @@
                         <option value="Trúng tuyển" <?= $filters['trang_thai'] === 'Trúng tuyển' ? 'selected' : '' ?>>Trúng tuyển</option>
                     </select>
                 </div>
-                <button type="submit" class="btn btn-primary">🔍 Lọc</button>
+                <button type="submit" class="btn btn-primary">Lọc</button>
             </form>
         </div>
     </div>
@@ -37,7 +37,7 @@
                     <div style="font-size: 4rem; margin-bottom: 1rem;">📭</div>
                     <h3 style="color: #6B7280; margin-bottom: 0.5rem;">Chưa có đơn ứng tuyển</h3>
                     <p style="color: #9CA3AF; margin-bottom: 1.5rem;">Hãy bắt đầu tìm kiếm và ứng tuyển công việc phù hợp</p>
-                    <a href="<?= BASE_URL ?>/jobs" class="btn btn-primary">🔍 Tìm việc làm</a>
+                    <a href="<?= BASE_URL ?>/jobs" class="btn btn-primary">Tìm việc làm</a>
                 </div>
             <?php else: ?>
                 <table style="width: 100%; border-collapse: collapse;">

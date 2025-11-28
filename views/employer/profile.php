@@ -68,7 +68,7 @@
                         <textarea name="mo_ta" rows="5"><?= e($employer['MoTa']) ?></textarea>
                     </div>
 
-                    <button type="submit" class="btn btn-primary">💾 Lưu thay đổi</button>
+                    <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
                 </form>
             </div>
         </div>

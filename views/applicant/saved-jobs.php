@@ -15,7 +15,7 @@
                 <div style="font-size: 4rem; margin-bottom: 1rem;">💔</div>
                 <h3 style="color: #6B7280; margin-bottom: 0.5rem;">Chưa có công việc đã lưu</h3>
                 <p style="color: #9CA3AF; margin-bottom: 1.5rem;">Hãy lưu các công việc bạn quan tâm để xem lại sau</p>
-                <a href="<?= BASE_URL ?>/jobs" class="btn btn-primary">🔍 Tìm việc làm</a>
+                <a href="<?= BASE_URL ?>/jobs" class="btn btn-primary">Tìm việc làm</a>
             </div>
         </div>
     <?php else: ?>

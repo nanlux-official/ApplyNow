@@ -8,7 +8,7 @@
         </div>
         <div style="display: flex; gap: 1rem;">
             <?php if (isset($_SESSION['user_role']) && $_SESSION['user_role'] === 'APPLICANT'): ?>
-                <a href="<?= BASE_URL ?>/support/upgrade-employer" class="btn btn-success">🏢 Trở thành NTD</a>
+                <a href="<?= BASE_URL ?>/support/upgrade-employer" class="btn btn-success">Trở thành NTD</a>
             <?php endif; ?>
             <a href="<?= BASE_URL ?>/support/create" class="btn btn-primary">+ Tạo yêu cầu mới</a>
         </div>

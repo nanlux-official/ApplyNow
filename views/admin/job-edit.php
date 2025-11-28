@@ -126,7 +126,7 @@
 
                 <div style="display: flex; gap: 1rem; justify-content: flex-end; margin-top: 2rem;">
                     <a href="<?= BASE_URL ?>/admin/jobs" class="btn btn-secondary">Hủy</a>
-                    <button type="submit" class="btn btn-primary">💾 Lưu thay đổi</button>
+                    <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
                 </div>
             </form>
         </div>
