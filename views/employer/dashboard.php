@@ -2,7 +2,7 @@
 
 <div class="container">
     <div style="margin-bottom: 2rem;">
-        <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">🏢 Dashboard Nhà tuyển dụng</h1>
+        <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">Dashboard Nhà tuyển dụng</h1>
         <p style="color: #6B7280;">Chào mừng trở lại, <?= e($employer['Ten']) ?>!</p>
     </div>
 
@@ -70,7 +70,7 @@
         <div class="card">
             <div class="card-header">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
-                    <h2 style="font-size: 1.25rem; font-weight: 700;">📋 Tin tuyển dụng gần đây</h2>
+                    <h2 style="font-size: 1.25rem; font-weight: 700;">Tin tuyển dụng gần đây</h2>
                     <a href="<?= BASE_URL ?>/employer/jobs/create" class="btn btn-primary btn-sm">+ Đăng tin mới</a>
                 </div>
             </div>
@@ -102,7 +102,7 @@
         <div class="card">
             <div class="card-header">
                 <div style="display: flex; justify-content: space-between; align-items: center;">
-                    <h2 style="font-size: 1.25rem; font-weight: 700;">👤 Ứng viên mới</h2>
+                    <h2 style="font-size: 1.25rem; font-weight: 700;">Ứng viên mới</h2>
                     <a href="<?= BASE_URL ?>/employer/applications" class="btn btn-secondary btn-sm">Xem tất cả</a>
                 </div>
             </div>
@@ -140,21 +140,21 @@
     <!-- Quick Actions -->
     <div class="card" style="margin-top: 2rem;">
         <div class="card-header">
-            <h2 style="font-size: 1.25rem; font-weight: 700;">⚡ Thao tác nhanh</h2>
+            <h2 style="font-size: 1.25rem; font-weight: 700;">Thao tác nhanh</h2>
         </div>
         <div class="card-body">
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
                 <a href="<?= BASE_URL ?>/employer/jobs/create" class="btn btn-primary">
-                    ➕ Đăng tin tuyển dụng
+                    Đăng tin tuyển dụng
                 </a>
                 <a href="<?= BASE_URL ?>/employer/jobs" class="btn btn-secondary">
-                    📝 Quản lý tin đăng
+                    Quản lý tin đăng
                 </a>
                 <a href="<?= BASE_URL ?>/employer/applications" class="btn btn-secondary">
-                    👥 Quản lý ứng viên
+                    Quản lý ứng viên
                 </a>
                 <a href="<?= BASE_URL ?>/employer/profile" class="btn btn-secondary">
-                    ⚙️ Thông tin công ty
+                    Thông tin công ty
                 </a>
             </div>
         </div>

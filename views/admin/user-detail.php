@@ -3,7 +3,7 @@
 <div class="container">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
         <div>
-            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">👤 Chi tiết người dùng</h1>
+            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">Chi tiết người dùng</h1>
             <p style="color: #6B7280;">Thông tin chi tiết tài khoản</p>
         </div>
         <a href="<?= BASE_URL ?>/admin/users" class="btn btn-secondary">← Quay lại danh sách</a>
@@ -85,7 +85,7 @@
                             <div style="background: #F9FAFB; padding: 1rem; border-radius: 0.5rem; margin-bottom: 1rem;">
                                 <form method="POST" action="<?= BASE_URL ?>/admin/users/<?= e($user['ID_TaiKhoan']) ?>/change-role">
                                     <label style="font-size: 0.875rem; font-weight: 600; color: #374151; margin-bottom: 0.75rem; display: block;">
-                                        🔄 Thay đổi vai trò
+                                        Thay đổi vai trò
                                     </label>
                                     <div class="form-group" style="margin-bottom: 0.75rem;">
                                         <select name="new_role" required style="width: 100%; padding: 0.5rem; border: 1px solid #D1D5DB; border-radius: 0.375rem; font-size: 0.875rem;">
@@ -108,14 +108,14 @@
                                 <button type="submit" class="btn btn-block" 
                                         style="background: #F59E0B; color: white;"
                                         onclick="return confirm('Bạn có chắc muốn khóa tài khoản này?')">
-                                    🔒 Khóa tài khoản
+                                    Khóa tài khoản
                                 </button>
                             </form>
                         <?php else: ?>
                             <form method="POST" action="<?= BASE_URL ?>/admin/users/<?= e($user['ID_TaiKhoan']) ?>/status">
                                 <input type="hidden" name="status" value="active">
                                 <button type="submit" class="btn btn-block btn-secondary">
-                                    🔓 Mở khóa tài khoản
+                                    Mở khóa tài khoản
                                 </button>
                             </form>
                         <?php endif; ?>
@@ -135,7 +135,7 @@
 
             <div class="card">
                 <div class="card-header">
-                    <h3 style="font-size: 1.125rem; font-weight: 700;">⚠️ Cảnh báo</h3>
+                    <h3 style="font-size: 1.125rem; font-weight: 700;">Cảnh báo</h3>
                 </div>
                 <div class="card-body">
                     <p style="color: #6B7280; font-size: 0.875rem; line-height: 1.6;">

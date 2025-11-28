@@ -3,7 +3,7 @@
 <div class="container">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
         <div>
-            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">🎫 Chi tiết yêu cầu hỗ trợ</h1>
+            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">Chi tiết yêu cầu hỗ trợ</h1>
             <p style="color: #6B7280;">Theo dõi tiến trình xử lý</p>
         </div>
         <?php if (isset($_SESSION['user_role']) && $_SESSION['user_role'] === 'ADMIN'): ?>

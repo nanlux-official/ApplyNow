@@ -2,7 +2,7 @@
 
 <div class="container">
     <div style="margin-bottom: 2rem;">
-        <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">👨‍💼 Admin Dashboard</h1>
+        <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">Admin Dashboard</h1>
         <p style="color: #6B7280;">Chào mừng quay trở lại, Admin!</p>
     </div>
 
@@ -69,7 +69,7 @@
         <!-- Latest Jobs -->
         <div class="card">
             <div class="card-header">
-                <h2 style="font-size: 1.25rem; font-weight: 700; color: #1F2937;">📋 Bài đăng mới nhất</h2>
+                <h2 style="font-size: 1.25rem; font-weight: 700; color: #1F2937;">Bài đăng mới nhất</h2>
             </div>
             <div class="card-body">
                 <?php if (empty($latest_jobs)): ?>
@@ -103,7 +103,7 @@
         <!-- Latest Users -->
         <div class="card">
             <div class="card-header">
-                <h2 style="font-size: 1.25rem; font-weight: 700; color: #1F2937;">👥 Người dùng mới</h2>
+                <h2 style="font-size: 1.25rem; font-weight: 700; color: #1F2937;">Người dùng mới</h2>
             </div>
             <div class="card-body">
                 <?php if (empty($latest_users)): ?>
@@ -137,18 +137,18 @@
     <!-- Quick Actions -->
     <div class="card" style="margin-top: 2rem;">
         <div class="card-header">
-            <h2 style="font-size: 1.25rem; font-weight: 700; color: #1F2937;">⚡ Thao tác nhanh</h2>
+            <h2 style="font-size: 1.25rem; font-weight: 700; color: #1F2937;">Thao tác nhanh</h2>
         </div>
         <div class="card-body">
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
                 <a href="<?= BASE_URL ?>/admin/users" class="btn btn-primary">
-                    👥 Quản lý người dùng
+                    Quản lý người dùng
                 </a>
                 <a href="<?= BASE_URL ?>/admin/jobs" class="btn btn-primary">
-                    💼 Quản lý bài đăng
+                    Quản lý bài đăng
                 </a>
                 <a href="<?= BASE_URL ?>/jobs" class="btn btn-secondary">
-                    🔍 Xem trang công khai
+                    Xem trang công khai
                 </a>
             </div>
         </div>

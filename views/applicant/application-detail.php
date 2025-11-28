@@ -3,7 +3,7 @@
 <div class="container">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
         <div>
-            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">📄 Chi tiết đơn ứng tuyển</h1>
+            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">Chi tiết đơn ứng tuyển</h1>
             <p style="color: #6B7280;">Thông tin chi tiết về đơn ứng tuyển của bạn</p>
         </div>
         <a href="<?= BASE_URL ?>/applicant/applications" class="btn btn-secondary">← Quay lại</a>
@@ -14,7 +14,7 @@
         <div>
             <div class="card" style="margin-bottom: 1.5rem;">
                 <div class="card-header">
-                    <h2 style="font-size: 1.25rem; font-weight: 700;">💼 Thông tin công việc</h2>
+                    <h2 style="font-size: 1.25rem; font-weight: 700;">Thông tin công việc</h2>
                 </div>
                 <div class="card-body">
                     <h3 style="font-size: 1.5rem; font-weight: 700; color: #1F2937; margin-bottom: 1rem;">
@@ -30,7 +30,7 @@
                             <h4 style="font-weight: 600; margin-bottom: 0.25rem;"><?= e($application['ten_cong_ty']) ?></h4>
                             <p style="color: #6B7280; font-size: 0.875rem;">📍 <?= e($application['DiaDiem']) ?></p>
                         </div>
-                        <button onclick="showReviewModal()" class="btn btn-sm btn-secondary">⭐ Đánh giá</button>
+                        <button onclick="showReviewModal()" class="btn btn-sm btn-secondary">Đánh giá</button>
                     </div>
 
                     <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; padding: 1rem; background: #F9FAFB; border-radius: 8px;">

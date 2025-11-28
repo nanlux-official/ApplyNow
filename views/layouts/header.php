@@ -16,55 +16,55 @@
                 </div>
                 <ul class="nav-menu">
                     <li><a href="<?= BASE_URL ?>/jobs">
-                        Tìm việc làm
+                        <i class="fas fa-search"></i> Tìm việc làm
                     </a></li>
                     <?php if (isset($_SESSION['user_id'])): ?>
                         <?php if ($_SESSION['user_role'] === 'APPLICANT'): ?>
                             <li><a href="<?= BASE_URL ?>/applicant/dashboard">
-                                Dashboard
+                                <i class="fas fa-home"></i> Dashboard
                             </a></li>
                             <li><a href="<?= BASE_URL ?>/applicant/profile">
-                                Hồ sơ
+                                <i class="fas fa-user"></i> Hồ sơ
                             </a></li>
                             <li><a href="<?= BASE_URL ?>/applicant/applications">
-                                Đơn ứng tuyển
+                                <i class="fas fa-file-alt"></i> Đơn ứng tuyển
                             </a></li>
                             <li><a href="<?= BASE_URL ?>/applicant/saved-jobs">
-                                Việc đã lưu
+                                <i class="fas fa-heart"></i> Việc đã lưu
                             </a></li>
                             <li><a href="<?= BASE_URL ?>/support">
-                                Hỗ trợ
+                                <i class="fas fa-headset"></i> Hỗ trợ
                             </a></li>
                         <?php elseif ($_SESSION['user_role'] === 'EMPLOYER'): ?>
                             <li><a href="<?= BASE_URL ?>/employer/dashboard">
-                                Dashboard
+                                <i class="fas fa-home"></i> Dashboard
                             </a></li>
                             <li><a href="<?= BASE_URL ?>/employer/jobs">
-                                Quản lý tin
+                                <i class="fas fa-briefcase"></i> Quản lý tin
                             </a></li>
                             <li><a href="<?= BASE_URL ?>/employer/applications">
-                                Ứng viên
+                                <i class="fas fa-users"></i> Ứng viên
                             </a></li>
                             <li><a href="<?= BASE_URL ?>/support">
-                                Hỗ trợ
+                                <i class="fas fa-headset"></i> Hỗ trợ
                             </a></li>
                         <?php elseif ($_SESSION['user_role'] === 'ADMIN'): ?>
                             <li><a href="<?= BASE_URL ?>/admin/dashboard">
-                                Quản trị
+                                <i class="fas fa-tachometer-alt"></i> Quản trị
                             </a></li>
                             <li><a href="<?= BASE_URL ?>/admin/support">
-                                Hỗ trợ
+                                <i class="fas fa-headset"></i> Hỗ trợ
                             </a></li>
                         <?php endif; ?>
                         <li><a href="<?= BASE_URL ?>/logout" class="btn-primary">
-                            Đăng xuất
+                            <i class="fas fa-sign-out-alt"></i> Đăng xuất
                         </a></li>
                     <?php else: ?>
                         <li><a href="<?= BASE_URL ?>/login">
-                            Đăng nhập
+                            <i class="fas fa-sign-in-alt"></i> Đăng nhập
                         </a></li>
                         <li><a href="<?= BASE_URL ?>/register" class="btn-primary">
-                            Đăng ký
+                            <i class="fas fa-user-plus"></i> Đăng ký
                         </a></li>
                     <?php endif; ?>
                 </ul>

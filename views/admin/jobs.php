@@ -3,7 +3,7 @@
 <div class="container">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
         <div>
-            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">💼 Quản lý bài đăng</h1>
+            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">Quản lý bài đăng</h1>
             <p style="color: #6B7280;">Quản lý tất cả bài đăng tuyển dụng trong hệ thống</p>
         </div>
         <a href="<?= BASE_URL ?>/admin/dashboard" class="btn btn-secondary">← Quay lại Dashboard</a>

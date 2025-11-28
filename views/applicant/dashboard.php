@@ -2,7 +2,7 @@
 
 <div class="container">
     <div style="margin-bottom: 2rem;">
-        <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">👋 Xin chào, <?= e($applicant['Ten']) ?>!</h1>
+        <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">Xin chào, <?= e($applicant['Ten']) ?>!</h1>
         <p style="color: #6B7280;">Chào mừng bạn quay trở lại</p>
     </div>
 
@@ -39,7 +39,7 @@
             <!-- Recent Applications -->
             <div class="card" style="margin-bottom: 2rem;">
                 <div class="card-header" style="display: flex; justify-content: space-between; align-items: center;">
-                    <h2 style="font-size: 1.25rem; font-weight: 700;">📝 Đơn ứng tuyển gần đây</h2>
+                    <h2 style="font-size: 1.25rem; font-weight: 700;">Đơn ứng tuyển gần đây</h2>
                     <a href="<?= BASE_URL ?>/applicant/applications" style="color: #3B82F6; font-size: 0.875rem;">Xem tất cả →</a>
                 </div>
                 <div class="card-body" style="padding: 0;">
@@ -75,7 +75,7 @@
             <!-- Recommended Jobs -->
             <div class="card">
                 <div class="card-header">
-                    <h2 style="font-size: 1.25rem; font-weight: 700;">💡 Công việc đề xuất</h2>
+                    <h2 style="font-size: 1.25rem; font-weight: 700;">Công việc đề xuất</h2>
                 </div>
                 <div class="card-body">
                     <div style="display: grid; gap: 1rem;">
@@ -109,17 +109,17 @@
             <!-- Quick Actions -->
             <div class="card" style="margin-bottom: 1.5rem;">
                 <div class="card-header">
-                    <h3 style="font-size: 1.125rem; font-weight: 700;">⚡ Thao tác nhanh</h3>
+                    <h3 style="font-size: 1.125rem; font-weight: 700;">Thao tác nhanh</h3>
                 </div>
                 <div class="card-body">
                     <a href="<?= BASE_URL ?>/jobs" class="btn btn-primary btn-block" style="margin-bottom: 0.75rem;">
-                        🔍 Tìm việc làm
+                        Tìm việc làm
                     </a>
                     <a href="<?= BASE_URL ?>/applicant/profile" class="btn btn-secondary btn-block" style="margin-bottom: 0.75rem;">
-                        👤 Cập nhật hồ sơ
+                        Cập nhật hồ sơ
                     </a>
                     <a href="<?= BASE_URL ?>/applicant/saved-jobs" class="btn btn-secondary btn-block">
-                        ❤️ Việc đã lưu
+                        Việc đã lưu
                     </a>
                 </div>
             </div>
@@ -127,7 +127,7 @@
             <!-- Notifications -->
             <div class="card">
                 <div class="card-header" style="display: flex; justify-content: space-between; align-items: center;">
-                    <h3 style="font-size: 1.125rem; font-weight: 700;">🔔 Thông báo</h3>
+                    <h3 style="font-size: 1.125rem; font-weight: 700;">Thông báo</h3>
                     <a href="<?= BASE_URL ?>/applicant/notifications" style="color: #3B82F6; font-size: 0.875rem;">Xem tất cả</a>
                 </div>
                 <div class="card-body" style="padding: 0;">

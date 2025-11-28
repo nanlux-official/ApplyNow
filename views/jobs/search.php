@@ -106,11 +106,11 @@
         <div class="search-box">
             <form method="GET" action="<?= BASE_URL ?>/jobs">
                 <div style="display: grid; grid-template-columns: 2fr 1.5fr auto; gap: 1rem; margin-bottom: 1rem;">
-                    <input type="text" name="keyword" placeholder="🔍 Từ khóa, vị trí công việc..." 
+                    <input type="text" name="keyword" placeholder="Từ khóa, vị trí công việc..." 
                            value="<?= e($filters['keyword'] ?? '') ?>"
                            style="padding: 0.875rem 1rem; border: 2px solid #E5E7EB; border-radius: 10px; font-size: 1rem;">
                     
-                    <input type="text" name="dia_diem" placeholder="📍 Địa điểm" 
+                    <input type="text" name="dia_diem" placeholder="Địa điểm" 
                            value="<?= e($filters['dia_diem'] ?? '') ?>"
                            style="padding: 0.875rem 1rem; border: 2px solid #E5E7EB; border-radius: 10px; font-size: 1rem;">
                     
@@ -121,7 +121,7 @@
                 
                 <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
                     <select name="loai_cong_viec" class="filter-chip">
-                        <option value="">⏰ Loại công việc</option>
+                        <option value="">Loại công việc</option>
                         <option value="Full-time" <?= ($filters['loai_cong_viec'] ?? '') === 'Full-time' ? 'selected' : '' ?>>Full-time</option>
                         <option value="Part-time" <?= ($filters['loai_cong_viec'] ?? '') === 'Part-time' ? 'selected' : '' ?>>Part-time</option>
                         <option value="Thực tập" <?= ($filters['loai_cong_viec'] ?? '') === 'Thực tập' ? 'selected' : '' ?>>Thực tập</option>
@@ -129,7 +129,7 @@
                     </select>
                     
                     <select name="kinh_nghiem" class="filter-chip">
-                        <option value="">💼 Kinh nghiệm</option>
+                        <option value="">Kinh nghiệm</option>
                         <option value="Chưa có">Chưa có kinh nghiệm</option>
                         <option value="1">Dưới 1 năm</option>
                         <option value="1-2">1-2 năm</option>
@@ -139,7 +139,7 @@
                     </select>
                     
                     <select name="sort" class="filter-chip">
-                        <option value="">🔄 Sắp xếp</option>
+                        <option value="">Sắp xếp</option>
                         <option value="latest" <?= ($filters['sort'] ?? '') === 'latest' ? 'selected' : '' ?>>Mới nhất</option>
                         <option value="salary_desc" <?= ($filters['sort'] ?? '') === 'salary_desc' ? 'selected' : '' ?>>Lương cao nhất</option>
                         <option value="views_desc" <?= ($filters['sort'] ?? '') === 'views_desc' ? 'selected' : '' ?>>Xem nhiều nhất</option>
@@ -154,7 +154,7 @@
 <div class="container" style="margin-top: 2rem;">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
         <h2 style="font-size: 1.5rem; font-weight: 700; color: #111827;">
-            💼 Tất cả công việc <span style="color: #3B82F6;">(<?= $pagination['total_items'] ?>)</span>
+            Tất cả công việc <span style="color: #3B82F6;">(<?= $pagination['total_items'] ?>)</span>
         </h2>
     </div>
     

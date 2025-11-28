@@ -85,7 +85,7 @@
         <div>
             <div class="card" style="margin-bottom: 1rem;">
                 <div class="card-header">
-                    <h3 style="font-size: 1.125rem; font-weight: 700;">📊 Thông tin</h3>
+                    <h3 style="font-size: 1.125rem; font-weight: 700;">Thông tin</h3>
                 </div>
                 <div class="card-body">
                     <div style="font-size: 0.875rem; color: #6B7280; line-height: 1.8;">
@@ -97,7 +97,7 @@
 
             <div class="card" style="margin-bottom: 1rem;">
                 <div class="card-header">
-                    <h3 style="font-size: 1.125rem; font-weight: 700;">⚡ Thao tác nhanh</h3>
+                    <h3 style="font-size: 1.125rem; font-weight: 700;">Thao tác nhanh</h3>
                 </div>
                 <div class="card-body">
                     <div style="display: flex; flex-direction: column; gap: 0.75rem;">
@@ -112,14 +112,14 @@
                                 <button type="submit" class="btn btn-block" 
                                         style="background: #F59E0B; color: white;"
                                         onclick="return confirm('Khóa tài khoản này?')">
-                                    🔒 Khóa tài khoản
+                                    Khóa tài khoản
                                 </button>
                             </form>
                         <?php else: ?>
                             <form method="POST" action="<?= BASE_URL ?>/admin/users/<?= e($user['ID_TaiKhoan']) ?>/status">
                                 <input type="hidden" name="status" value="active">
                                 <button type="submit" class="btn btn-block btn-secondary">
-                                    🔓 Mở khóa
+                                    Mở khóa
                                 </button>
                             </form>
                         <?php endif; ?>

@@ -3,7 +3,7 @@
 <div class="container">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
         <div>
-            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">🎫 Yêu cầu hỗ trợ</h1>
+            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">Yêu cầu hỗ trợ</h1>
             <p style="color: #6B7280;">Quản lý các yêu cầu hỗ trợ của bạn</p>
         </div>
         <div style="display: flex; gap: 1rem;">

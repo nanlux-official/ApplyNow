@@ -3,7 +3,7 @@
 <div class="container">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
         <div>
-            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">⚙️ Thông tin công ty</h1>
+            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">Thông tin công ty</h1>
             <p style="color: #6B7280;">Quản lý thông tin công ty và tài khoản</p>
         </div>
         <a href="<?= BASE_URL ?>/employer/dashboard" class="btn btn-secondary">← Dashboard</a>
@@ -13,7 +13,7 @@
         <!-- Company Info -->
         <div class="card">
             <div class="card-header">
-                <h2 style="font-size: 1.25rem; font-weight: 700;">🏢 Thông tin công ty</h2>
+                <h2 style="font-size: 1.25rem; font-weight: 700;">Thông tin công ty</h2>
             </div>
             <div class="card-body">
                 <form method="POST" action="<?= BASE_URL ?>/employer/profile">

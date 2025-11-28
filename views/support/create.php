@@ -3,7 +3,7 @@
 <div class="container">
     <div style="max-width: 700px; margin: 0 auto;">
         <div style="margin-bottom: 2rem;">
-            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">📝 Tạo yêu cầu hỗ trợ</h1>
+            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">Tạo yêu cầu hỗ trợ</h1>
             <p style="color: #6B7280;">Mô tả vấn đề bạn gặp phải, chúng tôi sẽ hỗ trợ bạn sớm nhất</p>
         </div>
 

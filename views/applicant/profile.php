@@ -3,7 +3,7 @@
 <div class="container">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
         <div>
-            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">👤 Hồ sơ cá nhân</h1>
+            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">Hồ sơ cá nhân</h1>
             <p style="color: #6B7280;">Quản lý thông tin và hồ sơ của bạn</p>
         </div>
         <a href="<?= BASE_URL ?>/applicant/dashboard" class="btn btn-secondary">← Dashboard</a>
@@ -14,7 +14,7 @@
         <div>
             <div class="card">
                 <div class="card-header">
-                    <h2 style="font-size: 1.25rem; font-weight: 700;">📝 Thông tin cá nhân</h2>
+                    <h2 style="font-size: 1.25rem; font-weight: 700;">Thông tin cá nhân</h2>
                 </div>
                 <div class="card-body">
                     <form method="POST" action="<?= BASE_URL ?>/applicant/profile">
@@ -87,7 +87,7 @@
             <!-- Change Password -->
             <div class="card" style="margin-bottom: 1.5rem;">
                 <div class="card-header">
-                    <h3 style="font-size: 1.125rem; font-weight: 700;">🔒 Đổi mật khẩu</h3>
+                    <h3 style="font-size: 1.125rem; font-weight: 700;">Đổi mật khẩu</h3>
                 </div>
                 <div class="card-body">
                     <form method="POST" action="<?= BASE_URL ?>/applicant/change-password">
@@ -103,7 +103,7 @@
                             <label>Xác nhận mật khẩu</label>
                             <input type="password" name="confirm_password" required>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block">🔑 Đổi mật khẩu</button>
+                        <button type="submit" class="btn btn-primary btn-block">Đổi mật khẩu</button>
                     </form>
                 </div>
             </div>

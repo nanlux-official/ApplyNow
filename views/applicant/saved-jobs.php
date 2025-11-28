@@ -3,7 +3,7 @@
 <div class="container">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
         <div>
-            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">❤️ Công việc đã lưu</h1>
+            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">Công việc đã lưu</h1>
             <p style="color: #6B7280;">Danh sách các công việc bạn quan tâm</p>
         </div>
         <a href="<?= BASE_URL ?>/applicant/dashboard" class="btn btn-secondary">← Dashboard</a>
@@ -42,7 +42,7 @@
                                     </h3>
                                     <button onclick="unsaveJob('<?= e($job['ID_BaiDang']) ?>')" 
                                             class="btn btn-sm btn-error" style="flex-shrink: 0;">
-                                        ❌ Bỏ lưu
+                                        Bỏ lưu
                                     </button>
                                 </div>
                                 

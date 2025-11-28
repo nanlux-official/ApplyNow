@@ -3,7 +3,7 @@
 <div class="container">
     <div style="max-width: 800px; margin: 0 auto;">
         <div style="margin-bottom: 2rem;">
-            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">📤 Ứng tuyển công việc</h1>
+            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">Ứng tuyển công việc</h1>
             <p style="color: #6B7280;">Hoàn tất thông tin để gửi đơn ứng tuyển</p>
         </div>
 
