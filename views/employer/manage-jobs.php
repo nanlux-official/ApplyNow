@@ -71,7 +71,7 @@
                                         <div style="display: flex; gap: 0.5rem; justify-content: center;">
                                             <a href="<?= BASE_URL ?>/employer/jobs/<?= e($job['ID_BaiDang']) ?>/edit" 
                                                class="btn btn-sm btn-primary" title="Sửa">
-                                                ✏️
+                                                Sửa
                                             </a>
                                             <a href="<?= BASE_URL ?>/employer/applications?job_id=<?= e($job['ID_BaiDang']) ?>" 
                                                class="btn btn-sm btn-secondary" title="Xem ứng viên">
@@ -81,7 +81,7 @@
                                                   onsubmit="return confirm('Bạn có chắc muốn xóa tin này?')">
                                                 <button type="submit" class="btn btn-sm" 
                                                         style="background: #EF4444; color: white;" title="Xóa">
-                                                    🗑️
+                                                    Xóa
                                                 </button>
                                             </form>
                                         </div>

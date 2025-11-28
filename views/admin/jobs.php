@@ -94,7 +94,7 @@
                                             <a href="<?= BASE_URL ?>/admin/jobs/<?= e($job['ID_BaiDang']) ?>/edit" 
                                                class="btn btn-sm btn-primary" 
                                                title="Sửa">
-                                                ✏️
+                                                Sửa
                                             </a>
                                             
                                             <!-- Toggle Status -->
@@ -102,7 +102,7 @@
                                                 <input type="hidden" name="status" value="<?= $job['TrangThai'] === 'active' ? 'hidden' : 'active' ?>">
                                                 <button type="submit" class="btn btn-sm btn-secondary" 
                                                         title="<?= $job['TrangThai'] === 'active' ? 'Ẩn' : 'Hiện' ?>">
-                                                    <?= $job['TrangThai'] === 'active' ? '👁️' : '👁️‍🗨️' ?>
+                                                    <?= $job['TrangThai'] === 'active' ? 'Ẩn' : 'Hiện' ?>
                                                 </button>
                                             </form>
                                             
@@ -112,7 +112,7 @@
                                                 <button type="submit" class="btn btn-sm" 
                                                         style="background: #EF4444; color: white;"
                                                         title="Xóa">
-                                                    🗑️
+                                                    Xóa
                                                 </button>
                                             </form>
                                         </div>

@@ -98,13 +98,13 @@
                                             <!-- View Details -->
                                             <a href="<?= BASE_URL ?>/admin/users/<?= e($user['ID_TaiKhoan']) ?>" 
                                                class="btn btn-sm btn-secondary" title="Xem chi tiết">
-                                                👁️
+                                                Xem
                                             </a>
                                             
                                             <!-- Edit -->
                                             <a href="<?= BASE_URL ?>/admin/users/<?= e($user['ID_TaiKhoan']) ?>/edit" 
                                                class="btn btn-sm btn-primary" title="Sửa">
-                                                ✏️
+                                                Sửa
                                             </a>
                                             
                                             <!-- Toggle Status -->
@@ -135,7 +135,7 @@
                                                     <button type="submit" class="btn btn-sm" 
                                                             style="background: #EF4444; color: white;"
                                                             title="Xóa">
-                                                        🗑️
+                                                        Xóa
                                                     </button>
                                                 </form>
                                             <?php endif; ?>

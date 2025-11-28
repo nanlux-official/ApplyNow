@@ -125,7 +125,7 @@
                                 <button type="submit" class="btn btn-block" 
                                         style="background: #EF4444; color: white;"
                                         onclick="return confirm('Bạn có chắc muốn xóa tài khoản này? Hành động này không thể hoàn tác!')">
-                                    🗑️ Xóa tài khoản
+                                    Xóa tài khoản
                                 </button>
                             </form>
                         <?php endif; ?>

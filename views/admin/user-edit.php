@@ -3,7 +3,7 @@
 <div class="container">
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
         <div>
-            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">✏️ Chỉnh sửa người dùng</h1>
+            <h1 style="font-size: 2rem; color: #1F2937; margin-bottom: 0.5rem;">Chỉnh sửa người dùng</h1>
             <p style="color: #6B7280;">Cập nhật thông tin tài khoản</p>
         </div>
         <a href="<?= BASE_URL ?>/admin/users" class="btn btn-secondary">← Quay lại danh sách</a>
@@ -103,7 +103,7 @@
                     <div style="display: flex; flex-direction: column; gap: 0.75rem;">
                         <a href="<?= BASE_URL ?>/admin/users/<?= e($user['ID_TaiKhoan']) ?>" 
                            class="btn btn-secondary btn-block">
-                            👁️ Xem chi tiết
+                            Xem chi tiết
                         </a>
                         
                         <?php if ($user['TrangThai'] !== 'locked'): ?>

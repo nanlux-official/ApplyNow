@@ -65,7 +65,7 @@
                                             📤 Ứng tuyển ngay
                                         </a>
                                     <?php else: ?>
-                                        <span class="badge badge-success" style="padding: 0.5rem 1rem;">✓ Đã ứng tuyển</span>
+                                        <span class="badge badge-success" style="padding: 0.5rem 1rem;">Đã ứng tuyển</span>
                                     <?php endif; ?>
                                 </div>
                             </div>
